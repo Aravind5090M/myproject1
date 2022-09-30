@@ -9,4 +9,3 @@ def alternative_string(first_str,second_str):
         if char_count < second_str_length:
             output_list.append(second_str[char_count])
     return "".join(output_list)
-print(alternative_string('Aravind','Maguluri'))
